@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+/* HEADER */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+/* IMAGE */
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* TITLE */
+.card h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+}
+
+/* HOVER */
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* RECIPE PAGE */
+.recipe {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.recipe img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 30px;
+}
